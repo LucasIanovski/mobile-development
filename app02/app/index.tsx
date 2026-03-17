@@ -1,5 +1,5 @@
-import { Stack } from "expo-router";
+import { Redirect } from "expo-router";
 
-export default function RootLayout() {
-  return <Stack />;
+export default function Index() {
+  return <Redirect href="/login" />;
 }
